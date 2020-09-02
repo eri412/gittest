@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "stack.h"
+#include "helloworld.h"
 
 int main() {
-	printf("Hello, World?\n");
+	hello_world();
 	Stack *test = NULL;
 	
 	printf("peek empty stack: %d\n", stack_peek(test));
