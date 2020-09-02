@@ -2,7 +2,7 @@
 #include "stack.h"
 
 int main() {
-	printf("Hello, World!\n");
+	printf("Hello, World?\n");
 	Stack *test = NULL;
 	
 	printf("peek empty stack: %d\n", stack_peek(test));
