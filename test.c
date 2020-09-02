@@ -13,7 +13,9 @@ int main() {
 	printf("peek: %d\n", stack_peek(test));
 	printf("push -100 onto stack: %d\n", stack_push(&test, -100));
 	printf("peek: %d\n", stack_peek(test));
-	printf("poping the stack entirely: %d %d %d %d", stack_pop(&test), stack_pop(&test), stack_pop(&test), stack_pop(&test)); // UB but who cares
+	printf("poping the stack entirely: %d %d %d %d\n", stack_pop(&test), stack_pop(&test), stack_pop(&test), stack_pop(&test)); // UB but who cares
+	
+	printf("Bye, World!\n");
 	
 	return 0;
 }
